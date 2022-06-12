@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+<title>{% block title %}Rl Drop{% endblock %}</title>
+{% block content %}
+<form method="POST">
+  <h3 align="center">RL Drop</h3>
+  <p>Please select the crate to open.</p>
+  <input type="radio" id="rare" name="rare" value="rare">
+  <label for="rare">Rare Drop</label>
+  <br />
+    <button type="sumbit" class="btn btn-primary">Open!</button>
+  <div></div>>
+</form>
+  <! ––get from data and run methods from "bot.py" ––>
+  {% endblock %}
